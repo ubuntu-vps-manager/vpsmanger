@@ -1,10 +1,17 @@
-# Ubuntu VPS Manager
+# VpsShieldPro
 
 A comprehensive management script for Ubuntu 22.04 VPS with features focused on proxies and tunneling services. This tool provides an all-in-one solution for setting up and managing various proxy and tunneling services with an interactive menu system.
 
 Created by MasterMind [@bitcockiii](https://t.me/bitcockiii)
 
-![Ubuntu VPS Manager](generated-icon.png)
+![VpsShieldPro](generated-icon.png)
+
+## Quick Start
+
+```bash
+# One-line installation
+wget -O install.sh https://raw.githubusercontent.com/ubuntu-vps-manager/vpsmanger/main/install.sh && sudo bash install.sh
+```
 
 ## Features
 
@@ -66,12 +73,33 @@ Created by MasterMind [@bitcockiii](https://t.me/bitcockiii)
 
 ## Installation
 
+### Quick Installation (Recommended)
+
+One-line command to install VpsShieldPro:
+
+```bash
+wget -O install.sh https://raw.githubusercontent.com/ubuntu-vps-manager/vpsmanger/main/install.sh && sudo bash install.sh
+```
+
+After installation, you can run the script from anywhere using:
+
+```bash
+sudo vpsshieldpro
+```
+
+### Manual Installation
+
+If you prefer to install manually:
+
 ```bash
 # Download the script
-git clone https://github.com/kurogai/ubuntu-vps-manager.git
+git clone https://github.com/ubuntu-vps-manager/vpsmanger.git
 
 # Navigate to the directory
-cd ubuntu-vps-manager
+cd vpsmanger
+
+# Extract the files if they're in the zip archive
+unzip VpsShieldPro.zip
 
 # Make the script executable
 chmod +x vps-manager.sh
@@ -106,9 +134,6 @@ This script includes a test mode that allows you to demonstrate functionality in
 # Run the script in test mode
 sudo ./vps-manager.sh --test
 ```
-AUTO INSTALL COMMAND
-
-wget -O install.sh https://github.com/ubuntu-vps-manager/vpsmanger/raw/main/install.sh && sudo bash install.sh
 
 Test mode simulates the installation and configuration processes without making actual system changes, which is useful for:
 - Demonstrating the script's capabilities
