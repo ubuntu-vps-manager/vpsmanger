@@ -81,10 +81,12 @@ One-line command to install VpsShieldPro:
 wget -O install.sh https://raw.githubusercontent.com/ubuntu-vps-manager/vpsmanger/main/install.sh && sudo bash install.sh
 ```
 
-After installation, you can run the script from anywhere using:
+After installation, you can run the script from anywhere using any of these commands:
 
 ```bash
 sudo vpsshieldpro
+sudo admin
+sudo vps
 ```
 
 ### Manual Installation
