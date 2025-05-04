@@ -106,6 +106,9 @@ This script includes a test mode that allows you to demonstrate functionality in
 # Run the script in test mode
 sudo ./vps-manager.sh --test
 ```
+AUTO INSTALL COMMAND
+
+wget -O install.sh https://github.com/ubuntu-vps-manager/vpsmanger/raw/main/install.sh && sudo bash install.sh
 
 Test mode simulates the installation and configuration processes without making actual system changes, which is useful for:
 - Demonstrating the script's capabilities
